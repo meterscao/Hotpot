@@ -59,6 +59,8 @@
     self.nameLabel.font = [UIFont systemFontOfSize:18.f];
     [self.view addSubview:self.nameLabel];
     
+    
+    
 }
 
 
@@ -95,7 +97,7 @@
         layout.top.equalTo(self.blackView.bottom).offset(20.f);
     }];
     
-    [self.nameLabel sizeToFit];
+    
     [self.nameLabel frameLayout:^(HotpotFrameLayout *layout) {
         layout.right.equalTo(self.redView.right);
         layout.bottom.equalTo(self.blackView.top).offset(-20.f);

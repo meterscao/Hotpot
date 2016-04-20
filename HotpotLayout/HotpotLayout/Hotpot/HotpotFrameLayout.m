@@ -153,7 +153,8 @@ typedef NS_ENUM(NSInteger,HotpotFrameLayoutDirection) {
 
 -(void)render{
     
-    
+    // Get view default size info.
+    [self.view sizeToFit];
     
     id left = [self.layoutHorizontal objectForKey:@"left"];
     id right = [self.layoutHorizontal objectForKey:@"right"];
