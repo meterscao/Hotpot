@@ -46,7 +46,7 @@ Your frame layout code should be placed in `viewDidLayoutSubviews` or `viewDidLa
 
 The best way to use `Hotpot` in your project is using [Cocoapods](http://cocoapods.org):
 
-	platform: ios , '7.0'
+	platform:ios,'7.0'
 	pod 'Hotpot'
 	
 **Important**: You must specify the number of version to your iOS platform. 
