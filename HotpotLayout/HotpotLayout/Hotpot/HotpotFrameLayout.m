@@ -205,6 +205,11 @@ typedef NS_ENUM(NSInteger,HotpotFrameLayoutDirection) {
         }
     
     }
+    else if(right){
+    
+        self.frameLeft = [right floatValue] - self.view.width;
+    }
+    
     
     
     
@@ -246,6 +251,10 @@ typedef NS_ENUM(NSInteger,HotpotFrameLayoutDirection) {
             
         }
         
+    }
+    else if(bottom){
+    
+        self.frameTop = [bottom floatValue] - self.view.height;
     }
     
     

@@ -10,10 +10,12 @@
 #import "Hotpot.h"
 
 @interface ViewController ()
-@property(nonnull)UIView *redView;
-@property(nonnull)UIView *blueView;;
-@property(nonnull)UIView *blackView;
-@property(nonnull)UIView *orangeView;;
+@property(nonatomic)UIView *redView;
+@property(nonatomic)UIView *blueView;;
+@property(nonatomic)UIView *blackView;
+@property(nonatomic)UIView *orangeView;
+@property(nonatomic)UILabel *nameLabel;
+
 @end
 
 @implementation ViewController
@@ -45,6 +47,17 @@
     self.orangeView.layer.cornerRadius = 20.f;
     self.orangeView.layer.masksToBounds = YES;
     [self.view addSubview:self.orangeView];
+    
+    
+    self.nameLabel = [[UILabel alloc]init];
+    self.nameLabel.text = @"I LOVE HOTPOT";
+    self.nameLabel.textAlignment = NSTextAlignmentCenter;
+    self.nameLabel.backgroundColor = [[UIColor purpleColor] colorWithAlphaComponent:0.7f];
+    self.nameLabel.layer.cornerRadius = 4.f;
+    self.nameLabel.layer.masksToBounds = YES;
+    self.nameLabel.textColor = [UIColor whiteColor];
+    self.nameLabel.font = [UIFont systemFontOfSize:18.f];
+    [self.view addSubview:self.nameLabel];
     
 }
 
@@ -80,6 +93,12 @@
         layout.height.equalTo(40.f);
         layout.left.equalTo(self.blackView.left);
         layout.top.equalTo(self.blackView.bottom).offset(20.f);
+    }];
+    
+    [self.nameLabel sizeToFit];
+    [self.nameLabel frameLayout:^(HotpotFrameLayout *layout) {
+        layout.right.equalTo(self.redView.right);
+        layout.bottom.equalTo(self.blackView.top).offset(-20.f);
     }];
 }
 
