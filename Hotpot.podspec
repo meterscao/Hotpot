@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Hotpot"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A light iOS view layout frame for team PaGeek."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/hellometers/Hotpot.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/hellometers/Hotpot.git", :tag => "0.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

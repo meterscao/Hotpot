@@ -1,6 +1,10 @@
 # Hotpot
 
-`Hotpot` 是一个轻量的 iOS View 布局辅助框架。用类似于 `AutoLayout` 的位置和关系描述，以及从 [Masonry](https://github.com/SnapKit/Masonry) 平行过渡的语法，简洁直观地为 UI 元素设置 `frame` 布局信息，取代了 `UIView` 自带的比较简陋的   `frame`  设置方法。
+
+ [![CocoaPods compatible](https://img.shields.io/cocoapods/v/Hotpot.svg?style=flat)](https://cocoapods.org/pods/Hotpot)  [![License: MIT](https://img.shields.io/cocoapods/l/Hotpot.svg?style=flat)](http://opensource.org/licenses/MIT)
+
+
+`Hotpot` 是一个轻量的 iOS 布局辅助框架。用类似于 `AutoLayout` 的位置和关系描述，以及从 [Masonry](https://github.com/SnapKit/Masonry) 平行过渡的语法，简洁直观地为 UI 元素设置 `frame` 布局信息，取代了 `UIView` 自带的比较简陋的   `frame`  设置方法。
 
 `Hotpot` 本质上仍然是 `frame` 布局方式，只不过将设置 `frame` 信息的步骤由之前固定的 `CGRectMake(x,y,width,height)` ，变成了更灵活和更直观的方式。
 
@@ -159,6 +163,24 @@ Hotpot 属性 | UIKit 方法 | 类型
 	        layout.top.equalTo(self.blackView.bottom).offset(20.f);
 	    }];
 	}
+
+## 为什么不直接使用 Autolayout ／ Masonry ?
+
+
+* 性能
+	
+	UI 元素比较多，布局关系复杂的场景，以及像 `UITableViewCell` 需要不断重复复用的场景， `frame` 布局性能要优于 `Autolayout` 。
+* 动画
+
+	在的动画实现上， `frame`  布局相对于  `Autolayout`  布局要更加直观和可控。
+
+* 调试
+
+	`Autolayout` 布局因为元素之间会互相影响，加上优先级的冲突，在实际的应用中调试起来不是很方便。而且对于xib中是使用了  `Autolayout`  属性的元素，在代码中更新约束也比较麻烦。
+	
+* 过渡
+
+	仍然有许多团队的项目还在使用传统的  `frame`  布局，`Hotpot`是一个很轻量的过渡方案。
 
 
 
