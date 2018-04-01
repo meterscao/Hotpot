@@ -3,81 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F72BEFC11CC77D0B003EC737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F72BEFC01CC77D0B003EC737 /* main.m */; };
-		F72BEFC41CC77D0B003EC737 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72BEFC31CC77D0B003EC737 /* AppDelegate.m */; };
-		F72BEFC71CC77D0B003EC737 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72BEFC61CC77D0B003EC737 /* ViewController.m */; };
-		F72BEFCA1CC77D0B003EC737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72BEFC81CC77D0B003EC737 /* Main.storyboard */; };
-		F72BEFCC1CC77D0B003EC737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72BEFCB1CC77D0B003EC737 /* Assets.xcassets */; };
-		F72BEFCF1CC77D0B003EC737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72BEFCD1CC77D0B003EC737 /* LaunchScreen.storyboard */; };
-		F72BEFDA1CC77D0B003EC737 /* HotpotLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72BEFD91CC77D0B003EC737 /* HotpotLayoutTests.m */; };
-		F72BEFE51CC77D0B003EC737 /* HotpotLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72BEFE41CC77D0B003EC737 /* HotpotLayoutUITests.m */; };
-		F72BEFF91CC77D27003EC737 /* Hotpot.m in Sources */ = {isa = PBXBuildFile; fileRef = F72BEFF41CC77D27003EC737 /* Hotpot.m */; };
-		F72BEFFA1CC77D27003EC737 /* HotpotFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F72BEFF61CC77D27003EC737 /* HotpotFrameLayout.m */; };
-		F72BEFFB1CC77D27003EC737 /* UIView+HotpotFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F72BEFF81CC77D27003EC737 /* UIView+HotpotFrameLayout.m */; };
+		E924D2272070D6BB009C5AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D2262070D6BB009C5AB4 /* AppDelegate.swift */; };
+		E924D2292070D6BB009C5AB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D2282070D6BB009C5AB4 /* ViewController.swift */; };
+		E924D22C2070D6BB009C5AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E924D22A2070D6BB009C5AB4 /* Main.storyboard */; };
+		E924D22E2070D6BD009C5AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E924D22D2070D6BD009C5AB4 /* Assets.xcassets */; };
+		E924D2312070D6BD009C5AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E924D22F2070D6BD009C5AB4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F72BEFD61CC77D0B003EC737 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72BEFB41CC77D0B003EC737 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F72BEFBB1CC77D0B003EC737;
-			remoteInfo = HotpotLayout;
-		};
-		F72BEFE11CC77D0B003EC737 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72BEFB41CC77D0B003EC737 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F72BEFBB1CC77D0B003EC737;
-			remoteInfo = HotpotLayout;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		F72BEFBC1CC77D0B003EC737 /* HotpotLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotpotLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F72BEFC01CC77D0B003EC737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F72BEFC21CC77D0B003EC737 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F72BEFC31CC77D0B003EC737 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F72BEFC51CC77D0B003EC737 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F72BEFC61CC77D0B003EC737 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F72BEFC91CC77D0B003EC737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F72BEFCB1CC77D0B003EC737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F72BEFCE1CC77D0B003EC737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F72BEFD01CC77D0B003EC737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F72BEFD51CC77D0B003EC737 /* HotpotLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotpotLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F72BEFD91CC77D0B003EC737 /* HotpotLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotpotLayoutTests.m; sourceTree = "<group>"; };
-		F72BEFDB1CC77D0B003EC737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F72BEFE01CC77D0B003EC737 /* HotpotLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotpotLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F72BEFE41CC77D0B003EC737 /* HotpotLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotpotLayoutUITests.m; sourceTree = "<group>"; };
-		F72BEFE61CC77D0B003EC737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F72BEFF31CC77D27003EC737 /* Hotpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hotpot.h; path = Hotpot/Hotpot.h; sourceTree = "<group>"; };
-		F72BEFF41CC77D27003EC737 /* Hotpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hotpot.m; path = Hotpot/Hotpot.m; sourceTree = "<group>"; };
-		F72BEFF51CC77D27003EC737 /* HotpotFrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotpotFrameLayout.h; path = Hotpot/HotpotFrameLayout.h; sourceTree = "<group>"; };
-		F72BEFF61CC77D27003EC737 /* HotpotFrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotpotFrameLayout.m; path = Hotpot/HotpotFrameLayout.m; sourceTree = "<group>"; };
-		F72BEFF71CC77D27003EC737 /* UIView+HotpotFrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HotpotFrameLayout.h"; path = "Hotpot/UIView+HotpotFrameLayout.h"; sourceTree = "<group>"; };
-		F72BEFF81CC77D27003EC737 /* UIView+HotpotFrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+HotpotFrameLayout.m"; path = "Hotpot/UIView+HotpotFrameLayout.m"; sourceTree = "<group>"; };
+		E924D2232070D6BB009C5AB4 /* HotpotLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotpotLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E924D2262070D6BB009C5AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E924D2282070D6BB009C5AB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E924D22B2070D6BB009C5AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E924D22D2070D6BD009C5AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E924D2302070D6BD009C5AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E924D2322070D6BD009C5AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F72BEFB91CC77D0B003EC737 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F72BEFD21CC77D0B003EC737 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F72BEFDD1CC77D0B003EC737 /* Frameworks */ = {
+		E924D2202070D6BB009C5AB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,92 +35,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F72BEFB31CC77D0B003EC737 = {
+		E924D21A2070D6BB009C5AB4 = {
 			isa = PBXGroup;
 			children = (
-				F72BEFBE1CC77D0B003EC737 /* HotpotLayout */,
-				F72BEFD81CC77D0B003EC737 /* HotpotLayoutTests */,
-				F72BEFE31CC77D0B003EC737 /* HotpotLayoutUITests */,
-				F72BEFBD1CC77D0B003EC737 /* Products */,
+				E924D2252070D6BB009C5AB4 /* HotpotLayout */,
+				E924D2242070D6BB009C5AB4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F72BEFBD1CC77D0B003EC737 /* Products */ = {
+		E924D2242070D6BB009C5AB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F72BEFBC1CC77D0B003EC737 /* HotpotLayout.app */,
-				F72BEFD51CC77D0B003EC737 /* HotpotLayoutTests.xctest */,
-				F72BEFE01CC77D0B003EC737 /* HotpotLayoutUITests.xctest */,
+				E924D2232070D6BB009C5AB4 /* HotpotLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F72BEFBE1CC77D0B003EC737 /* HotpotLayout */ = {
+		E924D2252070D6BB009C5AB4 /* HotpotLayout */ = {
 			isa = PBXGroup;
 			children = (
-				F72BEFF21CC77D11003EC737 /* Hotpot */,
-				F72BEFC21CC77D0B003EC737 /* AppDelegate.h */,
-				F72BEFC31CC77D0B003EC737 /* AppDelegate.m */,
-				F72BEFC51CC77D0B003EC737 /* ViewController.h */,
-				F72BEFC61CC77D0B003EC737 /* ViewController.m */,
-				F72BEFC81CC77D0B003EC737 /* Main.storyboard */,
-				F72BEFCB1CC77D0B003EC737 /* Assets.xcassets */,
-				F72BEFCD1CC77D0B003EC737 /* LaunchScreen.storyboard */,
-				F72BEFD01CC77D0B003EC737 /* Info.plist */,
-				F72BEFBF1CC77D0B003EC737 /* Supporting Files */,
+				E924D2262070D6BB009C5AB4 /* AppDelegate.swift */,
+				E924D2282070D6BB009C5AB4 /* ViewController.swift */,
+				E924D22A2070D6BB009C5AB4 /* Main.storyboard */,
+				E924D22D2070D6BD009C5AB4 /* Assets.xcassets */,
+				E924D22F2070D6BD009C5AB4 /* LaunchScreen.storyboard */,
+				E924D2322070D6BD009C5AB4 /* Info.plist */,
 			);
 			path = HotpotLayout;
-			sourceTree = "<group>";
-		};
-		F72BEFBF1CC77D0B003EC737 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F72BEFC01CC77D0B003EC737 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F72BEFD81CC77D0B003EC737 /* HotpotLayoutTests */ = {
-			isa = PBXGroup;
-			children = (
-				F72BEFD91CC77D0B003EC737 /* HotpotLayoutTests.m */,
-				F72BEFDB1CC77D0B003EC737 /* Info.plist */,
-			);
-			path = HotpotLayoutTests;
-			sourceTree = "<group>";
-		};
-		F72BEFE31CC77D0B003EC737 /* HotpotLayoutUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F72BEFE41CC77D0B003EC737 /* HotpotLayoutUITests.m */,
-				F72BEFE61CC77D0B003EC737 /* Info.plist */,
-			);
-			path = HotpotLayoutUITests;
-			sourceTree = "<group>";
-		};
-		F72BEFF21CC77D11003EC737 /* Hotpot */ = {
-			isa = PBXGroup;
-			children = (
-				F72BEFF31CC77D27003EC737 /* Hotpot.h */,
-				F72BEFF41CC77D27003EC737 /* Hotpot.m */,
-				F72BEFF51CC77D27003EC737 /* HotpotFrameLayout.h */,
-				F72BEFF61CC77D27003EC737 /* HotpotFrameLayout.m */,
-				F72BEFF71CC77D27003EC737 /* UIView+HotpotFrameLayout.h */,
-				F72BEFF81CC77D27003EC737 /* UIView+HotpotFrameLayout.m */,
-			);
-			name = Hotpot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F72BEFBB1CC77D0B003EC737 /* HotpotLayout */ = {
+		E924D2222070D6BB009C5AB4 /* HotpotLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F72BEFE91CC77D0B003EC737 /* Build configuration list for PBXNativeTarget "HotpotLayout" */;
+			buildConfigurationList = E924D2352070D6BD009C5AB4 /* Build configuration list for PBXNativeTarget "HotpotLayout" */;
 			buildPhases = (
-				F72BEFB81CC77D0B003EC737 /* Sources */,
-				F72BEFB91CC77D0B003EC737 /* Frameworks */,
-				F72BEFBA1CC77D0B003EC737 /* Resources */,
+				E924D21F2070D6BB009C5AB4 /* Sources */,
+				E924D2202070D6BB009C5AB4 /* Frameworks */,
+				E924D2212070D6BB009C5AB4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -180,172 +81,80 @@
 			);
 			name = HotpotLayout;
 			productName = HotpotLayout;
-			productReference = F72BEFBC1CC77D0B003EC737 /* HotpotLayout.app */;
+			productReference = E924D2232070D6BB009C5AB4 /* HotpotLayout.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F72BEFD41CC77D0B003EC737 /* HotpotLayoutTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F72BEFEC1CC77D0B003EC737 /* Build configuration list for PBXNativeTarget "HotpotLayoutTests" */;
-			buildPhases = (
-				F72BEFD11CC77D0B003EC737 /* Sources */,
-				F72BEFD21CC77D0B003EC737 /* Frameworks */,
-				F72BEFD31CC77D0B003EC737 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F72BEFD71CC77D0B003EC737 /* PBXTargetDependency */,
-			);
-			name = HotpotLayoutTests;
-			productName = HotpotLayoutTests;
-			productReference = F72BEFD51CC77D0B003EC737 /* HotpotLayoutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F72BEFDF1CC77D0B003EC737 /* HotpotLayoutUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F72BEFEF1CC77D0B003EC737 /* Build configuration list for PBXNativeTarget "HotpotLayoutUITests" */;
-			buildPhases = (
-				F72BEFDC1CC77D0B003EC737 /* Sources */,
-				F72BEFDD1CC77D0B003EC737 /* Frameworks */,
-				F72BEFDE1CC77D0B003EC737 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F72BEFE21CC77D0B003EC737 /* PBXTargetDependency */,
-			);
-			name = HotpotLayoutUITests;
-			productName = HotpotLayoutUITests;
-			productReference = F72BEFE01CC77D0B003EC737 /* HotpotLayoutUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F72BEFB41CC77D0B003EC737 /* Project object */ = {
+		E924D21B2070D6BB009C5AB4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = meters;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = R0uter;
 				TargetAttributes = {
-					F72BEFBB1CC77D0B003EC737 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					F72BEFD41CC77D0B003EC737 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = F72BEFBB1CC77D0B003EC737;
-					};
-					F72BEFDF1CC77D0B003EC737 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = F72BEFBB1CC77D0B003EC737;
+					E924D2222070D6BB009C5AB4 = {
+						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = F72BEFB71CC77D0B003EC737 /* Build configuration list for PBXProject "HotpotLayout" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = E924D21E2070D6BB009C5AB4 /* Build configuration list for PBXProject "HotpotLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F72BEFB31CC77D0B003EC737;
-			productRefGroup = F72BEFBD1CC77D0B003EC737 /* Products */;
+			mainGroup = E924D21A2070D6BB009C5AB4;
+			productRefGroup = E924D2242070D6BB009C5AB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F72BEFBB1CC77D0B003EC737 /* HotpotLayout */,
-				F72BEFD41CC77D0B003EC737 /* HotpotLayoutTests */,
-				F72BEFDF1CC77D0B003EC737 /* HotpotLayoutUITests */,
+				E924D2222070D6BB009C5AB4 /* HotpotLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F72BEFBA1CC77D0B003EC737 /* Resources */ = {
+		E924D2212070D6BB009C5AB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72BEFCF1CC77D0B003EC737 /* LaunchScreen.storyboard in Resources */,
-				F72BEFCC1CC77D0B003EC737 /* Assets.xcassets in Resources */,
-				F72BEFCA1CC77D0B003EC737 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F72BEFD31CC77D0B003EC737 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F72BEFDE1CC77D0B003EC737 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E924D2312070D6BD009C5AB4 /* LaunchScreen.storyboard in Resources */,
+				E924D22E2070D6BD009C5AB4 /* Assets.xcassets in Resources */,
+				E924D22C2070D6BB009C5AB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F72BEFB81CC77D0B003EC737 /* Sources */ = {
+		E924D21F2070D6BB009C5AB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72BEFF91CC77D27003EC737 /* Hotpot.m in Sources */,
-				F72BEFC71CC77D0B003EC737 /* ViewController.m in Sources */,
-				F72BEFFA1CC77D27003EC737 /* HotpotFrameLayout.m in Sources */,
-				F72BEFC41CC77D0B003EC737 /* AppDelegate.m in Sources */,
-				F72BEFC11CC77D0B003EC737 /* main.m in Sources */,
-				F72BEFFB1CC77D27003EC737 /* UIView+HotpotFrameLayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F72BEFD11CC77D0B003EC737 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F72BEFDA1CC77D0B003EC737 /* HotpotLayoutTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F72BEFDC1CC77D0B003EC737 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F72BEFE51CC77D0B003EC737 /* HotpotLayoutUITests.m in Sources */,
+				E924D2292070D6BB009C5AB4 /* ViewController.swift in Sources */,
+				E924D2272070D6BB009C5AB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F72BEFD71CC77D0B003EC737 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F72BEFBB1CC77D0B003EC737 /* HotpotLayout */;
-			targetProxy = F72BEFD61CC77D0B003EC737 /* PBXContainerItemProxy */;
-		};
-		F72BEFE21CC77D0B003EC737 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F72BEFBB1CC77D0B003EC737 /* HotpotLayout */;
-			targetProxy = F72BEFE11CC77D0B003EC737 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		F72BEFC81CC77D0B003EC737 /* Main.storyboard */ = {
+		E924D22A2070D6BB009C5AB4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F72BEFC91CC77D0B003EC737 /* Base */,
+				E924D22B2070D6BB009C5AB4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F72BEFCD1CC77D0B003EC737 /* LaunchScreen.storyboard */ = {
+		E924D22F2070D6BD009C5AB4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F72BEFCE1CC77D0B003EC737 /* Base */,
+				E924D2302070D6BD009C5AB4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -353,30 +162,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F72BEFE71CC77D0B003EC737 /* Debug */ = {
+		E924D2332070D6BD009C5AB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -390,38 +213,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F72BEFE81CC77D0B003EC737 /* Release */ = {
+		E924D2342070D6BD009C5AB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -429,119 +267,73 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F72BEFEA1CC77D0B003EC737 /* Debug */ = {
+		E924D2362070D6BD009C5AB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVH6DNU2ZP;
 				INFOPLIST_FILE = HotpotLayout/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = us.100things.HotpotLayout;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.logcg.HotpotLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F72BEFEB1CC77D0B003EC737 /* Release */ = {
+		E924D2372070D6BD009C5AB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVH6DNU2ZP;
 				INFOPLIST_FILE = HotpotLayout/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = us.100things.HotpotLayout;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.logcg.HotpotLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F72BEFED1CC77D0B003EC737 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = HotpotLayoutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = us.100things.HotpotLayoutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotpotLayout.app/HotpotLayout";
-			};
-			name = Debug;
-		};
-		F72BEFEE1CC77D0B003EC737 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = HotpotLayoutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = us.100things.HotpotLayoutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotpotLayout.app/HotpotLayout";
-			};
-			name = Release;
-		};
-		F72BEFF01CC77D0B003EC737 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = HotpotLayoutUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = us.100things.HotpotLayoutUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = HotpotLayout;
-			};
-			name = Debug;
-		};
-		F72BEFF11CC77D0B003EC737 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = HotpotLayoutUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = us.100things.HotpotLayoutUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = HotpotLayout;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F72BEFB71CC77D0B003EC737 /* Build configuration list for PBXProject "HotpotLayout" */ = {
+		E924D21E2070D6BB009C5AB4 /* Build configuration list for PBXProject "HotpotLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F72BEFE71CC77D0B003EC737 /* Debug */,
-				F72BEFE81CC77D0B003EC737 /* Release */,
+				E924D2332070D6BD009C5AB4 /* Debug */,
+				E924D2342070D6BD009C5AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F72BEFE91CC77D0B003EC737 /* Build configuration list for PBXNativeTarget "HotpotLayout" */ = {
+		E924D2352070D6BD009C5AB4 /* Build configuration list for PBXNativeTarget "HotpotLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F72BEFEA1CC77D0B003EC737 /* Debug */,
-				F72BEFEB1CC77D0B003EC737 /* Release */,
+				E924D2362070D6BD009C5AB4 /* Debug */,
+				E924D2372070D6BD009C5AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F72BEFEC1CC77D0B003EC737 /* Build configuration list for PBXNativeTarget "HotpotLayoutTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F72BEFED1CC77D0B003EC737 /* Debug */,
-				F72BEFEE1CC77D0B003EC737 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F72BEFEF1CC77D0B003EC737 /* Build configuration list for PBXNativeTarget "HotpotLayoutUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F72BEFF01CC77D0B003EC737 /* Debug */,
-				F72BEFF11CC77D0B003EC737 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F72BEFB41CC77D0B003EC737 /* Project object */;
+	rootObject = E924D21B2070D6BB009C5AB4 /* Project object */;
 }
