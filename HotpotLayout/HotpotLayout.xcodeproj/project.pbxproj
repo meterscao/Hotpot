@@ -12,6 +12,9 @@
 		E924D22C2070D6BB009C5AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E924D22A2070D6BB009C5AB4 /* Main.storyboard */; };
 		E924D22E2070D6BD009C5AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E924D22D2070D6BD009C5AB4 /* Assets.xcassets */; };
 		E924D2312070D6BD009C5AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E924D22F2070D6BD009C5AB4 /* LaunchScreen.storyboard */; };
+		E924D23A2070D71A009C5AB4 /* Hotpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D2392070D71A009C5AB4 /* Hotpot.swift */; };
+		E924D23C2070D779009C5AB4 /* HotpotFrameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D23B2070D779009C5AB4 /* HotpotFrameLayout.swift */; };
+		E924D23E2070E098009C5AB4 /* UIView+HotpotFrameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D23D2070E098009C5AB4 /* UIView+HotpotFrameLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E924D22D2070D6BD009C5AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E924D2302070D6BD009C5AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E924D2322070D6BD009C5AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E924D2392070D71A009C5AB4 /* Hotpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotpot.swift; sourceTree = "<group>"; };
+		E924D23B2070D779009C5AB4 /* HotpotFrameLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotpotFrameLayout.swift; sourceTree = "<group>"; };
+		E924D23D2070E098009C5AB4 /* UIView+HotpotFrameLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+HotpotFrameLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		E924D2252070D6BB009C5AB4 /* HotpotLayout */ = {
 			isa = PBXGroup;
 			children = (
+				E924D2382070D6E2009C5AB4 /* Hotpot */,
 				E924D2262070D6BB009C5AB4 /* AppDelegate.swift */,
 				E924D2282070D6BB009C5AB4 /* ViewController.swift */,
 				E924D22A2070D6BB009C5AB4 /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				E924D2322070D6BD009C5AB4 /* Info.plist */,
 			);
 			path = HotpotLayout;
+			sourceTree = "<group>";
+		};
+		E924D2382070D6E2009C5AB4 /* Hotpot */ = {
+			isa = PBXGroup;
+			children = (
+				E924D2392070D71A009C5AB4 /* Hotpot.swift */,
+				E924D23B2070D779009C5AB4 /* HotpotFrameLayout.swift */,
+				E924D23D2070E098009C5AB4 /* UIView+HotpotFrameLayout.swift */,
+			);
+			path = Hotpot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E924D2292070D6BB009C5AB4 /* ViewController.swift in Sources */,
+				E924D23C2070D779009C5AB4 /* HotpotFrameLayout.swift in Sources */,
+				E924D23A2070D71A009C5AB4 /* Hotpot.swift in Sources */,
+				E924D23E2070E098009C5AB4 /* UIView+HotpotFrameLayout.swift in Sources */,
 				E924D2272070D6BB009C5AB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MVH6DNU2ZP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HotpotLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MVH6DNU2ZP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HotpotLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
