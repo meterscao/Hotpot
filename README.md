@@ -6,7 +6,9 @@
 
 `Hotpot` 是一个轻量的 iOS 布局辅助框架。用类似于 `AutoLayout` 的位置和关系描述，以及从 [Masonry](https://github.com/SnapKit/Masonry) 平行过渡的语法，简洁直观地为 UI 元素设置 `frame` 布局信息，取代了 `UIView` 自带的比较简陋的   `frame`  设置方法。
 
-`Hotpot` 本质上仍然是 `frame` 布局方式，只不过将设置 `frame` 信息的步骤由之前固定的 `CGRectMake(x,y,width,height)` ，变成了更灵活和更直观的方式。
+`Hotpot` 本质上**仍然**是 `frame` 布局方式，只不过将设置 `frame` 信息的步骤由之前固定的 `CGRectMake(x,y,width,height)` ，变成了更灵活和更直观的方式。
+
+> 寻找 Swift 版本的 Hotpot？ 请切换到 [swift_support](https://github.com/hellometers/Hotpot/tree/swift_support) 分支。
 
 ## 引入
 
