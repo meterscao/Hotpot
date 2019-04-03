@@ -113,7 +113,7 @@
 				TargetAttributes = {
 					E924D2222070D6BB009C5AB4 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -310,7 +310,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.logcg.HotpotLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -328,7 +328,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.logcg.HotpotLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
