@@ -51,6 +51,7 @@ extension UIView {
     }
     func frameLayout(_ block:(HotpotFrameLayout)->()) {
         let layout = HotpotFrameLayout(view: self)
+        self.sizeToFit() //get default info before layout to avoid any of self size usage return zero
         block(layout)
         layout.render()
     }

@@ -7,16 +7,20 @@
 //
 
 import UIKit
+
+enum HotpotKey:Int {
+    case `default` = 0, left, right, width, centerX, top, bottom, height, centerY
+}
 enum HotpotFrameLayoutDirection:Int {
     case horizontal = 0, vertical
 }
 class HotpotFrameLayout {
     public var view:UIView
-    var key = "default"
+    var key = HotpotKey.default
     
     var direction:HotpotFrameLayoutDirection = .horizontal
-    var layoutHorizontal:[String:CGFloat] = [:]
-    var layoutVertical:[String:CGFloat] = [:]
+    var layoutHorizontal:[HotpotKey:CGFloat] = [:]
+    var layoutVertical:[HotpotKey:CGFloat] = [:]
     
     var frameWidth:CGFloat = -0.1
     var frameHeight:CGFloat = -0.1
@@ -53,17 +57,17 @@ class HotpotFrameLayout {
     
     func render() {
         // Get view default size info.
-        view.sizeToFit()
+//        view.sizeToFit()
         
-        let left:CGFloat! = layoutHorizontal["left"]
-        let right:CGFloat! = layoutHorizontal["right"]
-        let width:CGFloat! = layoutHorizontal["width"]
-        let centerX:CGFloat! = layoutHorizontal["centerX"]
+        let left:CGFloat! = layoutHorizontal[.left]
+        let right:CGFloat! = layoutHorizontal[.right]
+        let width:CGFloat! = layoutHorizontal[.width]
+        let centerX:CGFloat! = layoutHorizontal[.centerX]
         
-        let top:CGFloat! = layoutVertical["top"]
-        let bottom:CGFloat! = layoutVertical["bottom"]
-        let height:CGFloat! = layoutVertical["height"]
-        let centerY:CGFloat! = layoutVertical["centerY"]
+        let top:CGFloat! = layoutVertical[.top]
+        let bottom:CGFloat! = layoutVertical[.bottom]
+        let height:CGFloat! = layoutVertical[.height]
+        let centerY:CGFloat! = layoutVertical[.centerY]
         
         if left != nil {
             // left width right
@@ -149,42 +153,42 @@ class HotpotFrameLayout {
 }
 extension HotpotFrameLayout {
     public var width:HotpotFrameLayout {
-        key = "width"
+        key = .width
         direction = .horizontal
         return self
     }
     public var height:HotpotFrameLayout {
-        key = "height"
+        key = .height
         direction = .vertical
         return self
     }
     public var left:HotpotFrameLayout {
-        key = "left"
+        key = .left
         direction = .horizontal
         return self
     }
     public var right:HotpotFrameLayout {
-        key = "right"
+        key = .right
         direction = .horizontal
         return self
     }
     public var top:HotpotFrameLayout {
-        key = "top"
+        key = .top
         direction = .vertical
         return self
     }
     public var bottom:HotpotFrameLayout {
-        key = "bottom"
+        key = .bottom
         direction = .vertical
         return self
     }
     public var centerX:HotpotFrameLayout {
-        key = "centerX"
+        key = .centerX
         direction = .horizontal
         return self
     }
     public var centerY:HotpotFrameLayout {
-        key = "centerY"
+        key = .centerY
         direction = .vertical
         return self
     }
